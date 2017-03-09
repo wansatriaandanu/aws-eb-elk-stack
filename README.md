@@ -101,12 +101,10 @@ server {
 }
 ```
 
-# Done ! you can access your kibana dashboard on http://IP_PUBLIC/
-#
-#
-#
-#
-#
+# Done ! you can access your kibana dashboard on `http://IP_PUBLIC/`
+# And access the elasticsearch dashboard `http://your-elastic-url:9200/_plugin/head/`
+# and bigdesk plugin elasticsearch at `http://your-elastic-url:9200/_plugin/bigdesk/`
+
 # Client / Application Side (Logstash)
 
 # Install LogStasher
@@ -254,3 +252,19 @@ production:
 ```
 
 # and deploy your application with eb deploy
+
+
+# AND ACCESS THE KIBANA AND ELASTICSEARCH DASHBOARD
+KIBANA `http://IP_PUBLIC/`
+ELASTICSEARCH PLUGIN HEAD `http://your-elastic-url:9200/_plugin/head/` 
+ELASTICSEARCH PLUGIN BIGDESK `http://your-elastic-url:9200/_plugin/bigdesk/`
+
+![AWS-ES-PLUGIN](https://s12.postimg.org/53rhsd56l/kibana.png "KIBANA")
+#
+![AWS-ES-PLUGIN](https://s15.postimg.org/aep66lyyz/es_plugin_head.png "AWS-ES-PLUGIN_HEAD")
+#
+![AWS-ES-PLUGIN](https://s27.postimg.org/6dulkv2z7/es_plugin_bigdesk.png "AWS-ES-PLUGIN_BIGDESK")
+#
+![AWS-ES-PLUGIN](https://s10.postimg.org/5bacv91rt/bigdesk_cluster.png "AWS-ES-PLUGIN_BIGDESK")
+#
+
